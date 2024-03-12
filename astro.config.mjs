@@ -1,6 +1,5 @@
 import { defineConfig } from 'astro/config';
 import { loadEnv } from 'vite';
-
 import netlify from '@astrojs/netlify';
 import { sanityIntegration } from '@sanity/astro';
 import react from '@astrojs/react';
@@ -11,6 +10,7 @@ const { PUBLIC_SANITY_STUDIO_PROJECT_ID, PUBLIC_SANITY_STUDIO_DATASET } = loadEn
   ''
 );
 
+// https://astro.build/config
 export default defineConfig({
   output: 'hybrid',
   adapter: netlify(),
