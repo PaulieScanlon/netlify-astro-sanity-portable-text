@@ -9,7 +9,7 @@ export default defineConfig({
 
   projectId: import.meta.env.PUBLIC_SANITY_STUDIO_PROJECT_ID,
   dataset: import.meta.env.PUBLIC_SANITY_STUDIO_DATASET,
-
+  basePath: '/admin',
   plugins: [structureTool()],
 
   schema: {
