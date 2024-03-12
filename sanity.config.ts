@@ -1,7 +1,7 @@
 import { defineConfig } from 'sanity';
 import { structureTool } from 'sanity/structure';
 
-import { schemaTypes } from './admin/schemaTypes';
+import { schemaTypes } from './src/schemaTypes';
 
 export default defineConfig({
   name: 'netlify-astro-sanity',

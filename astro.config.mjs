@@ -10,7 +10,6 @@ const { PUBLIC_SANITY_STUDIO_PROJECT_ID, PUBLIC_SANITY_STUDIO_DATASET } = loadEn
   ''
 );
 
-// https://astro.build/config
 export default defineConfig({
   output: 'hybrid',
   adapter: netlify(),
