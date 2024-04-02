@@ -1,5 +1,5 @@
 {
-  "name": "netlify-astro-sanity",
+  "name": "netlify-astro-sanity-portable-text",
   "version": "1.0.0",
   "description": "A minimal Astro + Sanity site for Netlify",
   "main": "index.js",

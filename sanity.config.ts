@@ -2,7 +2,7 @@ import { defineConfig } from 'sanity';
 import { structureTool } from 'sanity/structure';
 
 export default defineConfig({
-  title: 'Netlify Astro Sanity',
+  title: 'Netlify Astro Sanity Portable Text',
 
   projectId: import.meta.env.PUBLIC_SANITY_STUDIO_PROJECT_ID,
   dataset: import.meta.env.PUBLIC_SANITY_STUDIO_DATASET,
