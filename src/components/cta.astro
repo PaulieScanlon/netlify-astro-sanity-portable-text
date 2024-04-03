@@ -1,0 +1,9 @@
+---
+const {
+  node: { text, href },
+} = Astro.props;
+---
+
+<div style={{ display: 'grid', placeItems: 'center', border: '1px solid red', padding: '32px' }}>
+  <a href={href} target='_blank' rel='noopener'>{text}</a>
+</div>
